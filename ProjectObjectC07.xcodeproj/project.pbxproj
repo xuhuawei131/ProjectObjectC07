@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		7558A6B11F4BE244008DCF19 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7558A6B01F4BE244008DCF19 /* main.m */; };
+		7558A6B91F4C0289008DCF19 /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = 7558A6B81F4C0289008DCF19 /* Dog.m */; };
+		7558A6BC1F4C0785008DCF19 /* People.m in Sources */ = {isa = PBXBuildFile; fileRef = 7558A6BB1F4C0785008DCF19 /* People.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		7558A6AD1F4BE244008DCF19 /* ProjectObjectC07 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ProjectObjectC07; sourceTree = BUILT_PRODUCTS_DIR; };
 		7558A6B01F4BE244008DCF19 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7558A6B71F4C0289008DCF19 /* Dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		7558A6B81F4C0289008DCF19 /* Dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
+		7558A6BA1F4C0785008DCF19 /* People.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = People.h; sourceTree = "<group>"; };
+		7558A6BB1F4C0785008DCF19 /* People.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = People.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				7558A6B01F4BE244008DCF19 /* main.m */,
+				7558A6B71F4C0289008DCF19 /* Dog.h */,
+				7558A6B81F4C0289008DCF19 /* Dog.m */,
+				7558A6BA1F4C0785008DCF19 /* People.h */,
+				7558A6BB1F4C0785008DCF19 /* People.m */,
 			);
 			path = ProjectObjectC07;
 			sourceTree = "<group>";
@@ -118,6 +128,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7558A6BC1F4C0785008DCF19 /* People.m in Sources */,
+				7558A6B91F4C0289008DCF19 /* Dog.m in Sources */,
 				7558A6B11F4BE244008DCF19 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
